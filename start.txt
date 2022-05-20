@@ -1,0 +1,5 @@
+abcd$
+SABC
+S->AaS|BbS|d
+A->a
+B->$|c
