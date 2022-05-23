@@ -348,7 +348,7 @@ void analyze()
         char key = st.top();
         if (key == abc)
         {
-            cout << "匹配栈顶部的字符" << key << "和队列顶部的字符" << abc << "相同，出栈" << endl;
+            cout << "匹配栈顶部的字符 " << key << " 和队列顶部的字符 " << abc << " 相同，出栈" << endl;
             q.pop();
             st.pop();
         }
@@ -357,7 +357,7 @@ void analyze()
             map<char, char> keys;
             keys[key] = abc; // 将栈顶部的字符和队列顶部的字符组合成一个键值对
             // 如果 PATable 中有该键值对
-            cout << "栈顶元素：" << key << "待求字符串队列头部元素" << abc << " ";
+            cout << "栈顶元素：" << key << " 待求字符串队列头部元素" << abc << " ";
             if (PATable.count(keys) != 0)
             {
                 // 取出 PATable 中该键值对的值
